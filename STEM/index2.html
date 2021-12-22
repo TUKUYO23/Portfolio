@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Classify of Animal in Biology</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+<body>
+<div class="quizzes-container">
+  <h2>Quiz</h2>
+  <div class="quiz-container">
+    <p2>Q1.</p2>
+    <div>
+      <p>Perdator eat plant</p>
+    </div>
+    <form id="quiz-1">
+      <input name="answer" type="radio" value="a">True</input>
+      <input name="answer" type="radio" value="b">False</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz1">Answer</button>
+  </div>
+  <div class="quiz-container">
+    <h2>Q2.</h2>
+    <div>
+      <p>People has vertbreate</p>
+    </div>
+    <form id="quiz-2">
+      <input name="answer" type="radio" value="a">True</input>
+      <input  name="answer" type="radio" value="b">False</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz2">Answer</button>
+  </div>
+  <div class="quiz-container">
+    <h2>Q3</h2>
+    <div>
+      <p>Who are you？</p>
+    </div>
+    <form id="quiz-3">
+      <input name="answer" type="radio" value="a">True</input>
+      <input name="answer" type="radio" value="b">False</input>
+      </form>
+    <button class="btn" type="button" onclick="answerQuiz3">Answer</button>  
+  </div>
+  <div id="score-container">
+    <p id="score-message"></p>
+  </div>
+  <button class="btn-score" type="button" onclick="showScore">Show your results!</button>
+</div>
+
+  <script src="script.js"></script>
+</body>

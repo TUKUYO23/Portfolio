@@ -1,0 +1,58 @@
+body {
+  margin: 0 50px;
+  font-family: 'Gill Sans MT';
+  background-color: #008080;
+  color: #e6e6fa;
+}
+
+img{
+  width: 20%;
+  height: 30%;
+  position: top, right;
+}
+
+p{
+  font-size:30px;
+}
+
+p2{
+  color:beige;
+  font-size:35px;
+}
+
+p3{
+  font-size:20px;
+}
+
+
+
+h2{
+   font-size: 30px;
+   color: #000000;
+   font-family: 'Gill Sans MT';
+}
+h3{
+  font-size: 27px;
+  color: #f0ebc0;
+  }
+
+ 
+.inline-block{
+  display:inline-block;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 40px;
+}
+
+.question {
+  display: none;
+}
+
+
+
+
+
+ 
